@@ -1,0 +1,136 @@
+[{
+    "id": "01",
+    "name": "Trà sữa Matcha",
+    "nameE": "Matcha Milk Tea",
+    "price": "45000",
+    "catelory": "Trasua",
+    "describe":"Trà sữa Matcha đã trở thành một hiện tượng trong thế giới đồ uống, đặc biệt là trong lòng giới trẻ yêu thích trải nghiệm hương vị mới mẻ. Được chế biến từ lá trà xanh Matcha tinh khiết, đây không chỉ là một cốc trà, mà là một tác phẩm nghệ thuật hòa quyện giữa truyền thống và sự độc đáo.",
+    "img": "products/tsmatcha.png"
+},
+{
+    "id": "02",
+    "name": "Matcha Đá Xay",
+    "nameE": "Matcha Ice Blended",
+    "price": "60000",
+    "catelory":"Daxay",
+    "describe":"Matcha đá xay là một thức uống phổ biến có nguồn gốc từ truyền thống Nhật Bản. Nó được tạo ra bằng cách xay nhuyễn bột trà matcha chất lượng cao và trộn cùng đá hoặc đá bào, tạo nên một đồ uống đáng yêu, thơm ngon và sảng khoái. Matcha đá xay thường có hương vị đặc trưng của trà matcha, kết hợp với hương mát của đá, tạo ra trải nghiệm thức uống hấp dẫn, đặc biệt phù hợp trong những ngày nóng. Đôi khi, có thể thêm đường, sữa hoặc các thành phần khác để làm tăng thêm hương vị và độ độc đáo của thức uống này.",
+    "img": "products/matchadaxay.png"
+},
+{
+    "id": "03",
+    "name": "Hồng Trà Đào Sữa",
+    "nameE": "Peach Black Milk Tea",
+    "price": "55000",
+    "catelory": "Hongtra",
+    "describe":"Hồng trà đào sữa là một đồ uống thơm ngon và tinh tế, kết hợp hương thơm đặc trưng của trà hồng và hương ngọt của đào, tạo nên một trải nghiệm hương vị độc đáo. Sự hòa quyện giữa hồng trà đen và đào tạo nên lớp trà đậm đà, cùng sự ngọt ngào và mát lạnh từ sữa tạo ra một thức uống hấp dẫn. Hồng trà đào sữa không chỉ là sự kết hợp hài hòa về hương vị, mà còn là một cách tuyệt vời để thưởng thức trà một cách độc đáo và phong cách.",
+    "img": "products/hongtradaosua.png"
+},
+{
+    "id": "04",
+    "name": "Chanh Đá Xay",
+    "nameE": "Lime Ice Blended",
+    "price": "50000",
+    "catelory": "Daxay",
+    "describe":"Chanh đá xay là một thức uống giải khát phổ biến, đặc biệt phổ biến trong mùa hè. Với hương vị chua ngọt, mát lạnh, chanh đá xay không chỉ giúp giải khát mà còn mang lại cảm giác tươi mới và sảng khoái. Điểm độc đáo của thức uống này là sự kết hợp giữa độ chua của chanh, độ ngọt của đường và đá, tạo nên một trải nghiệm thưởng thức độc đáo và thú vị. Chanh đá xay thường được biết đến với khả năng làm giảm nhiệt độ cơ thể và cung cấp năng lượng, là lựa chọn tuyệt vời để cảm nhận hương vị tinh tế và thư giãn trong những ngày nắng nóng.",
+    "img": "products/chanhdx.png"
+},
+{
+    "id": "05",
+    "name": "Cappuccino",
+    "nameE": "Cappuccino",
+    "price": "45000",
+    "catelory":"Caphe",
+    "describe":"Cappuccino là một trong những loại đồ uống cà phê phổ biến, nổi tiếng với sự kết hợp hài hòa giữa cà phê đậm, sữa béo và bọt sữa mịn. Hương thơm của cappuccino thường góp phần tạo nên trải nghiệm ngon miệng và thư giãn. Việc phủ bề mặt cappuccino bằng lớp bọt sữa mịn màng là điểm nhấn tạo nên sự độc đáo, và việc hòa quyện giữa hương vị cà phê và sữa tạo nên một tác phẩm nghệ thuật trong cốc. Đối với những người yêu thích cà phê, cappuccino không chỉ là đồ uống, mà còn là một trải nghiệm thưởng thức hấp dẫn, đem lại sự tỉnh táo và hạnh phúc trong mỗi ngụm.",
+    "img": "products/capuchino.png"
+},
+{
+    "id": "06",
+    "name": "Cappuccino Đá Xay",
+    "nameE": "Espresso Ice Blended",
+    "price": "60000",
+    "catelory":"Daxay",
+    "describe":"Cappuccino đá xay là một phiên bản sáng tạo của thức uống cà phê truyền thống, mang đến trải nghiệm mát lạnh và sảng khoái. Việc kết hợp giữa cappuccino truyền thống và đá xay tạo ra một đồ uống vừa đậm đà vị cà phê, vừa ngon miệng với sự lạnh lẽo của đá. Bọt sữa mịn màng và hương vị cà phê độc đáo kết hợp hoàn hảo, làm cho cappuccino đá xay trở thành lựa chọn tuyệt vời, đặc biệt trong những ngày nắng nóng. Thưởng thức một cốc cappuccino đá xay là cách tuyệt vời để cảm nhận sự hòa quyện giữa hương vị cà phê và sự tươi mát của đá.",
+    "img": "products/capuchinodx.png"
+},
+{
+    "id": "07",
+    "name": "Oreo Đá Xay",
+    "nameE": "Oreo Espresso Ice Blended",
+    "price": "65000",
+    "catelory":"Daxay",
+    "describe":"Oreo Cappuccino đá xay là một sự kết hợp tuyệt vời giữa hương vị thơm ngon của cà phê cappuccino và sự ngon miệng của bánh Oreo. Với lớp bọt sữa mịn màng, hòa quyện cùng hạt đá xay nhuyễn, đồ uống này không chỉ mang đến hương vị cà phê độc đáo mà còn bổ sung thêm vị ngọt và giòn của bánh quy Oreo. Mỗi ngụm là một trải nghiệm hòa quyện giữa cà phê thơm nồng và hương vị ngọt ngào của bánh, tạo nên một cảm giác thưởng thức mới lạ và thú vị. Oreo Cappuccino đá xay không chỉ là một đồ uống giải khát, mà còn là một lựa chọn ngon miệng và sáng tạo cho những người yêu thích sự độc đáo trong thưởng thức cà phê.",
+    "img": "products/oreocapuchinodx.png"
+},
+{
+    "id": "08",
+    "name": "Cà Phê Sữa ",
+    "nameE": "Milk Coffee",
+    "price": "35000",
+    "catelory":"Caphe",
+    "describe":"Cà phê sữa là một biểu tượng trong thế giới cà phê, mang đến sự hòa quyện hoàn hảo giữa hương vị đậm đà của cà phê và sự mềm mại, béo ngậy của sữa. Sự kết hợp này tạo nên một đồ uống cân bằng, dễ uống và thơm ngon. Cà phê sữa thường được ưa chuộng vì khả năng điều chỉnh độ đắng và độ ngọt theo sở thích cá nhân. Đây là lựa chọn lý tưởng cho những người muốn tận hưởng hương vị cà phê mà không bị quá mạnh mẽ, và còn là một cách tuyệt vời để bắt đầu mỗi ngày với một nụ cười và tinh thần tỉnh táo.",
+    "img": "products/cfsua.png"
+},
+{
+    "id": "09",
+    "name": "Cà Phê",
+    "nameE": "Black Coffee",
+    "price": "30000",
+    "catelory":"Caphe",
+    "describe":"Cà phê là một hành trình thưởng thức hương vị và năng lượng, đưa người uống vào một trạng thái trải nghiệm tuyệt vời. Với hương thơm phức tạp, độ đắng nhẹ và đậm đà, cà phê không chỉ là đồ uống, mà là một lối sống. Mỗi ngụm cà phê là một chuyến phiêu lưu, mở ra không gian thư giãn và sự sảng khoái. Cà phê không chỉ đánh thức tinh thần mà còn tạo nên những khoảnh khắc đặc biệt, làm phong phú thêm cuộc sống hàng ngày.",
+    "img": "products/cf.png"
+},
+{
+    "id": "10",
+    "name": "Bạc Xĩu",
+    "nameE": "White Coffee",
+    "price": "40000",
+    "catelory":"Caphe",
+    "describe":"Bạc xỉu là một loại cà phê đặc trưng của Việt Nam, nổi tiếng với sự đơn giản và ngon miệng. Điểm độc đáo của bạc xỉu chính là sự pha trộn hài hòa giữa cà phê và sữa đặc ngọt, tạo ra một hương vị độc đáo và thơm ngon. Đây là lựa chọn phổ biến cho những người muốn thưởng thức cà phê mà không muốn quá đắng hoặc quá ngọt. Bạc xỉu không chỉ là một đồ uống truyền thống mà còn là một phần không thể thiếu của văn hóa cà phê Việt Nam, đem lại cảm giác gần gũi và thoải mái.",
+    "img": "products/bacxiu.png"
+},
+{
+    "id": "11",
+    "name": "Trà Nhãn Xanh",
+    "nameE": "Longan Lotus Tea",
+    "price": "50000",
+    "catelory":"Hongtra",
+    "describe":"Trà nhãn xanh là một loại trà tinh tế và tinh khiết, với hương thơm dễ chịu và vị nhẹ ngọt đặc trưng. Lá trà xanh giữ được màu xanh tươi, chứng tỏ sự tươi mới và chất lượng. Với đặc tính giàu chất chống ô nhiễm và chống oxy hóa, trà nhãn xanh không chỉ là một thức uống giải khát mà còn mang lại nhiều lợi ích cho sức khỏe. Thưởng thức trà nhãn xanh là một cách tuyệt vời để thư giãn và tận hưởng những giây phút yên bình trong ngày.",
+    "img": "products/tranhanxanh.png"
+},
+{
+    "id": "12",
+    "name": "Trà Vải Lài",
+    "nameE": "Lychee Jasmine Tea",
+    "price": "50000",
+    "catelory":"Hongtra",
+    "describe":"Trà vải lài là một lựa chọn thú vị với hương vị tươi mới và mát lạnh. Mùi thơm tự nhiên của lá vải lài kết hợp với hương trà nhẹ tạo nên một trải nghiệm thưởng thức dễ chịu. Trà này thường được ưa chuộng trong mùa hè với tính chất giải nhiệt và thơm ngon tự nhiên. Với vị ngọt nhẹ và hậu vị sảng khoái, trà vải lài là sự kết hợp hoàn hảo giữa hương trái cây và trà, mang lại cảm giác tươi mới và sảng khoái trong mỗi ngụm.",
+    "img": "products/travailai.png"
+},
+{
+    "id": "13",
+    "name": "Hồng Trà Đào",
+    "nameE": "Peach Black Tea",
+    "price": "55000",
+    "catelory":"Hongtra",
+    "describe":"Hồng trà đào là một sự kết hợp tinh tế giữa hương vị thơm ngon của hồng trà và hương thơm ngọt ngào của đào. Đây là một loại trà trái cây phong phú và mát lạnh, rất thích hợp cho những ngày nắng nóng. Hương thơm tự nhiên và màu hồng nhẹ của đào tạo nên một trải nghiệm thưởng thức tinh tế và sảng khoái. Hồng trà đào không chỉ giúp giải khát mà còn mang lại cảm giác thư giãn và hài lòng với hương vị độc đáo và đầy quyến rũ.",
+    "img": "products/hongtradao.png"
+},
+{
+    "id": "14",
+    "name": "Trà Olong Dâu",
+    "nameE": "Strawberry Oolong Tea",
+    "price": "50000",
+    "catelory":"Hongtra",
+    "describe":"Ô long dâu là một sự pha trộn tinh tế giữa trà ô long truyền thống và hương vị ngọt ngào của dâu. Hương thơm tinh tế và vị chua ngọt của dâu tạo nên một trải nghiệm thưởng thức độc đáo. Màu nước đẹp và hấp dẫn, ô long dâu không chỉ là một đồ uống giải khát mà còn là một tác phẩm nghệ thuật trong cốc. Đây là lựa chọn tuyệt vời cho những người muốn thưởng thức hương vị trà truyền thống với một chút sáng tạo và ngọt ngào từ quả dâu.",
+    "img": "products/olongdau.png"
+},
+{
+    "id": "15",
+    "name": "Hồng Trà Chanh",
+    "nameE": "Lime Black Tea",
+    "price": "40000",
+    "catelory":"Hongtra",
+    "describe":"Hồng trà chanh là một sự pha trộn hài hòa giữa hương vị truyền thống của hồng trà và sự tươi mát của chanh. Đây là một loại trà sảng khoái, có vị chua nhẹ và hậu vị đậm đà. Hương thơm tự nhiên của hồng trà kết hợp với hương chanh tạo nên một trải nghiệm thưởng thức tinh tế và sảng khoái. Hồng trà chanh là lựa chọn tuyệt vời để thưởng thức trong những ngày nắng nóng, mang lại cảm giác tỉnh táo và hứng khởi.",
+    "img": "products/hongtrachanh.png"
+}
+]

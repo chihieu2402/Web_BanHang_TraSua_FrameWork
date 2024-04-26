@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phúc Long Cart</title>
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb mt-5">
+                <li class="breadcrumb-item"><a href="#!home">Trang chủ</a></li>
+                <li class="breadcrumb-item"><a href="#!list">Danh sách sản phẩm</a></li>
+                <li class="breadcrumb-item active">Giỏ hàng</li>
+            </ol>
+        </nav>
+        <div class="row text-center mt-5">
+            <h3 class="text-success" style="font-family: 'Times New Roman', Times, serif; font-size: 2.5rem;">GIỎ HÀNG
+            </h3>
+            <img src="image/icon_tealeaves.png" class="img-fluid w-25 m-auto align-middle">
+        </div>
+
+        <table
+            class="table table-responsive text-center ms-3 my-5 justify-content-center align-items-center align-middle">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Sản phẩm</th>
+                    <th>Đơn giá</th>
+                    <th>Số lượng</th>
+                    <th>Thành tiền</th>
+                    <th></th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <!-- <tr ng-repeat="pro in cart">
+                    <td class=""><input type="checkbox" ng-checked="all" ng-model="pro.buy"></td>
+                    <td class="col-4"><img src="{{pro.img}}" class="img-fluid w-75 mt-3">
+                        <div style="color: green; font-weight: 700;">{{pro.name}}</div>
+                    </td>
+                    <td class="col-4">{{pro.price | number:0}}đ</td>
+                    <td class="col-3">
+                        <input type="number" value="{{pro.quantity}}" ng-model="pro.quantity" min="1" max="99"
+                            ng-disabled="!pro.buy">
+                    </td>
+                    <td class="col-3">{{pro.price * pro.quantity | number:0}}đ</td>
+                    <td><button class="btn btn-danger" ng-click="xoaSP()">Xóa</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <div class="d-flex ms-0">
+                            <button class="btn btn-success" type="checkbox" id="" ng-model="all"
+                                ng-click="(check==true)?chon():bochon()"> {{(check==true)?'Chọn':'Bỏ chọn'}} tất
+                                cả</button>
+                        </div>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    
+                    <td colspan="2">
+                        <div">
+                        <button class="btn btn-danger d-flex me-0"  ng-click="xoaAll()" ng-disabled="cart==''">Xóa tất cả</button>
+                    </div>
+                    </td>
+                </tr> -->
+            </tbody>
+        </table>
+
+        <div class="row ms-2 mt-5 border border-success p-2 mb-2 d-flex justify-content-between align-items-center">
+
+            <div class="col-5 d-flex justify-content-center align-items-center">
+                <label class="fw-bold">Voucher</label>
+                <input class="form-control mx-2 rounded-0" type="search" ng-model="voucher">
+            </div>
+            <div class="col-4 me-0">
+                Tổng tiền thanh toán: <strong>{{getAmount() | number:0}}đ</strong>
+                <button class="btn btn-success ms-2 me-0" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                    ng-disabled="getAmount()==0">Đặt hàng</button>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title text-success" id="exampleModalLabel">Đặt hàng</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h4>Thông tin khách hàng</h4>
+                    <div class="d-flex gap-3">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                Anh
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
+                                checked>
+                            <label class="form-check-label" for="flexRadioDefault2">
+                                Chị
+                            </label>
+                        </div>
+                    </div>
+                    <form name="formThongTin">
+                        <div class="row mt-2">
+                            <div class="col-6 m-0 fw-bold">
+                                <label for="inputFullName" class="form-label">Họ và tên</label>
+                                <input class="form-control" id="inputFullName" type="text" name="fullName" required>
+                            </div>
+                            <div class="col-6 m-0 fw-bold">
+                                <label for="inputSoDienThoai" class="form-label">Số điện thoại</label>
+                                <input type="text" class="form-control" id="inputSoDienThoai" name="sdt" required>
+                            </div>
+                        </div>
+                        <h4>Địa chỉ nhận hàng:</h4>
+                        <div class="mb-3">
+                            <label for="inpTinh" class="form-label">Tỉnh/Thành phố:</label>
+                            <select type="text" class="form-control" id="inpTinh" ng-model="tinh"
+                                ng-options="tinh.Name for tinh in dsTinh" required>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="inpHuyen" class="form-label">Quận/Huyện:</label>
+                            <select type="text" class="form-control" id="inpHuyen" ng-model="huyen"
+                                ng-options="huyen as huyen.Name for huyen in tinh.Districts" required>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="inpXa" class="form-label">Xã/Phường</label>
+                            <select type="text" class="form-control" id="inpXa" ng-model="xa"
+                                ng-options="xa as xa.Name for xa in huyen.Wards" name="xa" required>
+                            </select>
+                        </div>
+                        <div class="alert alert-warning" ng-show="formThongTin.$invalid">Vui lòng nhập đầy đủ thông tin
+                        </div>
+                    </form>
+
+                    <h4>Phương thức thanh toán</h4>
+                    <div class="form-check mt-3">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                            value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios1">
+                            Ví Momo
+                        </label>
+                        <br>
+                        <img src="image/download.png" class="img-thumbnail w-25">
+                    </div>
+                    <div class="form-check mt-3">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
+                            value="option2">
+                        <label class="form-check-label" for="exampleRadios2">
+                            Ngân hàng liên kết
+                        </label>
+                        <br>
+                        <img src="image/png-clipart-visa-and-mastercard-ads-mastercard-credit-card-american-express-visa-debit-card-mastercard-text-payment.png"
+                            class="img-thumbnail w-25">
+                        <img src="image/png-clipart-visa-and-mastercard-ads-mastercard-credit-card-american-express-visa-debit-card-mastercard-text-payment (1).png"
+                            class="img-thumbnail w-25">
+                    </div>
+                    <div class="form-check mt-3">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3"
+                            value="option3">
+                        <label class="form-check-label" for="exampleRadios3">
+                            Khi nhận hàng
+                        </label>
+                    </div>
+                    <h4 class="mt-3 text-success">Tổng tiền: {{getAmount()|number:0}}đ</h4>
+                </div>
+
+                <div class="modal-footer">
+
+                    <button type="button" class="btn btn-success">Thanh toán</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/68a6aada2a.js" crossorigin="anonymous"></script>
+</body>
+</html>

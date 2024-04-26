@@ -1,0 +1,33 @@
+.carousel-img{
+    max-height: 350px; 
+    min-height: 100px;
+    width: 100%;
+    object-fit: cover;
+  }
+.card-body h5{
+    color: green;
+    font-size: 1.9rem;
+}
+.card-body-sp h5{
+  color: green;
+  font-size: 1.6rem;
+}
+.col-8-infor li h5{
+  color: green;
+  font-size: 1.3rem;
+}
+.col-8-infor {
+  list-style: none;
+}
+.m-3-about p{
+  font-family: 'Times New Roman', Times, serif;
+}
+.pagination-list ul li a{
+  color: green;
+}
+.pagination-list ul li a:hover{
+  color: red;
+}
+.active >.page-link{
+  background-color: green;
+}

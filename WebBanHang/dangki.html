@@ -1,0 +1,47 @@
+<body class="container mt-5  row">
+  <div class="card col-6 offset-3 border-0">
+    <div class="card-body">
+      <h2 class="card-title text-center text-success">Đăng ký</h2>
+      <form name="formDK">
+
+        <div class="mb-3">
+          <label for="firstName" class="form-label">Họ:</label>
+          <input type="text" id="firstName" ng-model="user.firstName" class="form-control" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="lastName" class="form-label">Tên:</label>
+          <input type="text" id="lastName" ng-model="user.lastName" class="form-control" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="username" class="form-label">Tên đăng nhập:</label>
+          <input type="text" id="username" ng-model="user.username" class="form-control" name="user" min="6" max="10" required>
+          <div ng-show="formDK.user.$invalid" class="fst-italic text-danger">User từ 6 đến 10 kí tự</div>
+        </div>
+
+        <div class="mb-3">
+          <label for="email" class="form-label">Email:</label>
+          <input type="email" id="email" ng-model="user.email" class="form-control" name="email" required>
+          <div ng-show="formDK.email.$invalid" class="fst-italic text-danger">Email sai định dạng</div>
+        </div>
+
+        <div class="mb-3">
+          <label for="password" class="form-label">Mật khẩu:</label>
+          <input type="password" id="password" ng-model="user.password" class="form-control" name="pw1" min="6" max="15" required>
+          <div ng-show="formDK.pw1.$invalid" class="fst-italic text-danger">Mật khẩu phải từ 6 đến 15 kí tự</div>
+        </div>
+
+        <div class="mb-3">
+          <label for="confirmPassword" class="form-label">Xác nhận mật khẩu:</label>
+          <input type="password" id="confirmPassword" ng-model="user.confirmPassword" class="form-control" required>
+        </div>
+        <div ng-show="formDK.$invalid" class="alert alert-warning my-3">Vui lòng điền đầy đủ thông tin</div>
+        <button type="button" ng-click="register()" class="btn btn-outline-success">Đăng kí</button>
+
+      </form>
+      
+    </div>
+    <div class="ms-3">Nếu bạn đã có tài khoản đăng nhập <a href="#!login" class="text-decoration-none">Tại đây</a> </div>
+  </div>
+</body>
